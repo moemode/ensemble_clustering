@@ -1,11 +1,7 @@
 # ens_clust
 
-ens_clust provides consensus functions and ensemble generation strategies for consensus clustering.
-
-## Consensus Functions
-
-This work implements the following consensus functions which work on
-an ensemble of clusterings. They are in the package ens_clust.
+ens_clust provides the following consensus functions which work on
+an ensemble of clusterings.
 | Consensus Function | File |
 | ---      |  ------  |
 | MM  |  [mixture_model.py](/ens_clust/consensus_functions/mixture_model.py)|
@@ -13,8 +9,6 @@ an ensemble of clusterings. They are in the package ens_clust.
 | Cumulative Voting: A-BV | [cvs.py](/ens_clust/consensus_functions/cvs.py)|
 | Iterative Voting Consensus  | [ivc.py](/ens_clust/consensus_functions/ivc.py) |
 | QMI |  [adjusted_ba_kmeans.py](/ens_clust/consensus_functions/adjusted_ba_kmeans.py) |
-
-## Ensemble Generation
 
 ens_clust contains [multiple, simple ensemble generation strategies](ens_clust/generation/ensemble_generation.py).
 
